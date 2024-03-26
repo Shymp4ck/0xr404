@@ -1,0 +1,791 @@
+{
+  "app_name": "babylond",
+  "app_version": "v0.8.5",
+  "genesis_time": "2024-02-08T14:11:01Z",
+  "chain_id": "bbn-test-3",
+  "initial_height": 1,
+  "app_hash": null,
+  "app_state": {
+    "07-tendermint": null,
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bbn17npmralae7zql7zem0ksftzy8d7ccnqftecm8n",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bbn10hg5waeuxh8y0whza2vm8luz93ak93qux422w5",
+          "pub_key": null,
+          "account_number": "1",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bbn1adf0940c2sdvlym4h0zd0s2fydrkvf9hrtrzgk",
+          "pub_key": null,
+          "account_number": "2",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bbn1ky6zax6y9mvyhzyger2da3l7y8mx4ymqz0pxxc",
+          "pub_key": null,
+          "account_number": "3",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bbn1dkysdfmkjt7krf74mx4kl2xxm0fnn35vmce7l3",
+          "pub_key": null,
+          "account_number": "4",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bbn14qyv4xj3wxn50j77x4qlucn5hjflqh0zmc7g74",
+          "pub_key": null,
+          "account_number": "5",
+          "sequence": "0"
+        }
+      ]
+    },
+    "authz": {
+      "authorization": []
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
+      "balances": [
+        {
+          "address": "bbn1dkysdfmkjt7krf74mx4kl2xxm0fnn35vmce7l3",
+          "coins": [
+            {
+              "denom": "ubbn",
+              "amount": "7500000000000"
+            }
+          ]
+        },
+        {
+          "address": "bbn10hg5waeuxh8y0whza2vm8luz93ak93qux422w5",
+          "coins": [
+            {
+              "denom": "ubbn",
+              "amount": "7500000000000"
+            }
+          ]
+        },
+        {
+          "address": "bbn14qyv4xj3wxn50j77x4qlucn5hjflqh0zmc7g74",
+          "coins": [
+            {
+              "denom": "ubbn",
+              "amount": "2025000000000000"
+            }
+          ]
+        },
+        {
+          "address": "bbn1ky6zax6y9mvyhzyger2da3l7y8mx4ymqz0pxxc",
+          "coins": [
+            {
+              "denom": "ubbn",
+              "amount": "7500000000000"
+            }
+          ]
+        },
+        {
+          "address": "bbn1adf0940c2sdvlym4h0zd0s2fydrkvf9hrtrzgk",
+          "coins": [
+            {
+              "denom": "ubbn",
+              "amount": "7500000000000"
+            }
+          ]
+        },
+        {
+          "address": "bbn17npmralae7zql7zem0ksftzy8d7ccnqftecm8n",
+          "coins": [
+            {
+              "denom": "ubbn",
+              "amount": "7500000000000"
+            }
+          ]
+        }
+      ],
+      "supply": [
+        {
+          "denom": "ubbn",
+          "amount": "2062500000000000"
+        }
+      ],
+      "denom_metadata": [],
+      "send_enabled": []
+    },
+    "btccheckpoint": {
+      "params": {
+        "btc_confirmation_depth": "6",
+        "checkpoint_finalization_timeout": "100",
+        "checkpoint_tag": "62627433"
+      }
+    },
+    "btclightclient": {
+      "params": {
+        "insert_headers_allow_list": [
+          "bbn1l5s67yerd8nhw68356pre2u2yrvhzuevxlty3t"
+        ]
+      },
+      "base_btc_header": {
+        "header": "00000020d4980252702b6bacd1a7f11efdfe1225958464e9628a1fb3daa2fb8069000000637571d7577f1c4f2fd27d18857e3ce64d6aca1cc64e2080c5914a2a3a381087ff2fc265c94b011e3d761f01",
+        "hash": "0000013954abf6ffe4833ea96f7779fae6f494fdb104e0ea8904f0f551f078f2",
+        "height": "181440",
+        "work": "12945025"
+      }
+    },
+    "btcstaking": {
+      "params": {
+        "covenant_pks": [
+          "ffeaec52a9b407b355ef6967a7ffc15fd6c3fe07de2844d61550475e7a5233e5",
+          "a5c60c2188e833d39d0fa798ab3f69aa12ed3dd2f3bad659effa252782de3c31",
+          "59d3532148a597a2d05c0395bf5f7176044b1cd312f37701a9b4d0aad70bc5a4",
+          "57349e985e742d5131e1e2b227b5170f6350ac2e2feb72254fcc25b3cee21a18",
+          "c8ccb03c379e452f10c81232b41a1ca8b63d0baf8387e57d302c987e5abb8527"
+        ],
+        "covenant_quorum": 3,
+        "slashing_address": "tb1qv03wm7hxhag6awldvwacy0z42edtt6kwljrhd9",
+        "min_slashing_tx_fee_sat": "1000",
+        "min_commission_rate": "0.050000000000000000",
+        "slashing_rate": "0.100000000000000000",
+        "max_active_finality_providers": 80,
+        "min_unbonding_time": 100
+      }
+    },
+    "capability": {
+      "index": "1",
+      "owners": []
+    },
+    "checkpointing": {
+      "genesis_keys": [
+        {
+          "validator_address": "bbnvaloper17npmralae7zql7zem0ksftzy8d7ccnqfkmjxtj",
+          "bls_key": {
+            "pubkey": "pJLp0Rr9AiYv3XhdRmmhhVm+BgjDFLd+aag7nYNj2Vu7yQ6rPYuiX6JyqjqrTrsaElNgVRo3kNObA5F1gDKToj8NBlepBcK6Qkg63JratOBemfKql/2zr4ZlJxGIM/WP",
+            "pop": {
+              "ed25519_sig": "HFvnXJuTe7ZgIeitG4cGebAR24bw3uFmKcHMyL+Nbb2GgzDTePzdzDNG5YCdwZJlRrBDFnLAiCdkVlzm/E4dDw==",
+              "bls_sig": "pkeiHacjTWQrOVyrFb1cFJa7VAgIrZ6n8OTw2pglgDRGvf3mMRtQcYW/720aNJaC"
+            }
+          },
+          "val_pubkey": {
+            "key": "ucBSFEKwCk2uiLUOFMCkJLj8Hf1WbgHpzM9bNtAwgy4="
+          }
+        },
+        {
+          "validator_address": "bbnvaloper10hg5waeuxh8y0whza2vm8luz93ak93qumhqhz4",
+          "bls_key": {
+            "pubkey": "oU687YQw+0dmiiajAX69Dr1TBc9aW56RJVGfBIVRaHPVo3tx+PNhesjUorvfncCBA3Rozr/XykiD8+bmXAUoeQIZDVXTAGCQxAfCJJpYXI/9NdNTx/KPg/kMml+YCfWv",
+            "pop": {
+              "ed25519_sig": "rVE7PXsHYVzdKOonEdHeDCK+e3Ol4ITJ67ykzrr96eFxQBMV7E60VQci2IBElDtMFyXD0rZbxjcianL6NKPjDQ==",
+              "bls_sig": "kxMcOBwjrAuft4Uz+31Llog3gLFnesJZmGMjEhEhVXglyoUqdFlN10labAg5D1Zi"
+            }
+          },
+          "val_pubkey": {
+            "key": "upH011gxhali2zBpWflJFLrl9r5AfxOHWOHribJkUDQ="
+          }
+        },
+        {
+          "validator_address": "bbnvaloper1adf0940c2sdvlym4h0zd0s2fydrkvf9h7fflyh",
+          "bls_key": {
+            "pubkey": "qp/exvCKpNmAxLw/ior78yowgb5iyQfnBQeDNqQRCfxOO+xk023jMwE1lrs8Rff9CqRIIhhirQWXeaz7eUvyFkv2Ihmm6CrBwwqTnpXBj5bAkyKrgf4883oYL+Ll9gfa",
+            "pop": {
+              "ed25519_sig": "KHZbuAWS+2x5k9Qn/dCJ9HI3dP12nRq8yahSgGz6gifeT69eZAlQpNMfjA9Qzixe8v+Wpcn1Ah9GZNpLGBNzDw==",
+              "bls_sig": "oFwMHY1/uQ0ALGFEQWp9lDYGcXTJkwBHULAGWxvLC71u6w+yE4DtYadbIOymLR3L"
+            }
+          },
+          "val_pubkey": {
+            "key": "91iLtw4ig6IxK8EZtvWiCjVmX0PkPbh6HMo2wSpDP2A="
+          }
+        },
+        {
+          "validator_address": "bbnvaloper1ky6zax6y9mvyhzyger2da3l7y8mx4ymqldtm2e",
+          "bls_key": {
+            "pubkey": "ggl4QXXR37WQE4AnYs/nPSEaMa8y1hPixyDUWOjmsXBC0LTE70CajPrPaFTg1taOFnd6usoxDvPJizRd5Bxe/gj9zoEboJEyIfuO3NXOQ487p0VOeqeg8y5QPKyTS0G4",
+            "pop": {
+              "ed25519_sig": "/XngH0cvXRyY4seG8TaYvkBwPj6QnYKqdese592DtRatvgmGbbp1RAhq2M1GYuU3j3lfDvdsLIEWawF2ifMFDA==",
+              "bls_sig": "jZU3AheESpTnGmf2A6SKdL/cjeKbrZv7NxeuDj4HNq+hoQKhQ7SBp/lc8984nCyC"
+            }
+          },
+          "val_pubkey": {
+            "key": "hfZzcWM4zkCLQF3PsqAnKLArlr3JYbwFgpyFcAfukoM="
+          }
+        },
+        {
+          "validator_address": "bbnvaloper1dkysdfmkjt7krf74mx4kl2xxm0fnn35vx6nrns",
+          "bls_key": {
+            "pubkey": "tFQKlFWigUmDEmmOCyOxih0blwJkp9P9Yl0FjrD1776WGJy8XZjZtqpjFsq2EVYQDitxD/RRXuQ6QyJ92CSVTgRSJWqmJFoWGWt3w2Fj2s22+Y2UqsTQvUKCqzVwfxJO",
+            "pop": {
+              "ed25519_sig": "iDnbvSge93f4jILCqEqVCjV776I6j+V435lgo/3AW3JxS/0iOaoAs7u0me4Uvyb0Oaz+7356zyoEI2MSKbbbDA==",
+              "bls_sig": "t//A5aUKg/41ZBrdaF1P4mDXQ5zARAPXfftNVynflplCYwPO3FFKAtG4tqokeqQ3"
+            }
+          },
+          "val_pubkey": {
+            "key": "Mi4gZGM1/klzHViS+HabGrLegqnQY959iqZrK3g7wLo="
+          }
+        }
+      ]
+    },
+    "circuit": {
+      "account_permissions": [],
+      "disabled_type_urls": []
+    },
+    "consensus": null,
+    "crisis": {
+      "constant_fee": {
+        "denom": "ubbn",
+        "amount": "500000000000"
+      }
+    },
+    "distribution": {
+      "params": {
+        "community_tax": "0",
+        "base_proposer_reward": "0",
+        "bonus_proposer_reward": "0",
+        "withdraw_addr_enabled": false
+      },
+      "fee_pool": {
+        "community_pool": []
+      },
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "epoching": {
+      "params": {
+        "epoch_interval": "120"
+      }
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "feegrant": {
+      "allowances": []
+    },
+    "feeibc": {
+      "identified_fees": [],
+      "fee_enabled_channels": [],
+      "registered_payees": [],
+      "registered_counterparty_payees": [],
+      "forward_relayers": []
+    },
+    "finality": {
+      "params": {
+        "min_pub_rand": "50"
+      }
+    },
+    "genutil": {
+      "gen_txs": [
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Babylon Foundation 0",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "bbnvaloper17npmralae7zql7zem0ksftzy8d7ccnqfkmjxtj",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "ucBSFEKwCk2uiLUOFMCkJLj8Hf1WbgHpzM9bNtAwgy4="
+                },
+                "value": {
+                  "denom": "ubbn",
+                  "amount": "7500000000000"
+                }
+              }
+            ],
+            "memo": "10b483d706782dd53834eca77562e081e52b16dd@10.150.73.127:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AkTbQkLWyLEbZZlW/NABjCD3eh3JEy8sEIkFp6zz7jlc"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "/eutH7IkOOZ6zpHjEgeRpm1ByXFWXQKU1NDgm22AJMMipAcvGn/a8XeyZYolz3VklwnKlgOxVTjq9EetvP/9Bg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Babylon Foundation 4",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "bbnvaloper1dkysdfmkjt7krf74mx4kl2xxm0fnn35vx6nrns",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "Mi4gZGM1/klzHViS+HabGrLegqnQY959iqZrK3g7wLo="
+                },
+                "value": {
+                  "denom": "ubbn",
+                  "amount": "7500000000000"
+                }
+              }
+            ],
+            "memo": "5b124ed79f5f0c02ffca4bfb8a73469265f46de1@10.150.73.127:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "An1X/kgjpYgR2RQUgHeAwjk1SbDo3phw7UgnzpyAZW7Z"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "++tcdHRg+bOE8bGqNc4GMe6JfFBYs4Y4uVuHBLNX/Twc5/LrqYhGm2lFGad1qwjxFbiQ+5aA/zu5n/bRil2r0Q=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Babylon Foundation 2",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "bbnvaloper1adf0940c2sdvlym4h0zd0s2fydrkvf9h7fflyh",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "91iLtw4ig6IxK8EZtvWiCjVmX0PkPbh6HMo2wSpDP2A="
+                },
+                "value": {
+                  "denom": "ubbn",
+                  "amount": "7500000000000"
+                }
+              }
+            ],
+            "memo": "8f618f4f40d1c27e27b760ca10246b8b113e94be@10.150.73.127:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Auf30rYIjDljXaq1f2xQyuAA/qiUtudklaOW4DtI6uWR"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "9F7zFEPWwNODJCYqqzxATBRek8JFb4UUOFeqLSDwgC1uoWq/agMNrKVFQLQzKesiVhnWYXZeXP52QLhVODWj1Q=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Babylon Foundation 3",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "bbnvaloper1ky6zax6y9mvyhzyger2da3l7y8mx4ymqldtm2e",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "hfZzcWM4zkCLQF3PsqAnKLArlr3JYbwFgpyFcAfukoM="
+                },
+                "value": {
+                  "denom": "ubbn",
+                  "amount": "7500000000000"
+                }
+              }
+            ],
+            "memo": "94a6b8d058bc3db464ab8ec0b824cd40c09a2385@10.150.73.127:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AsiS0Wy+1FiTdgsinsCyzB4aeO67ODjWFmfTjBFKf7Sx"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "4iQnJbyPTn8zcYGBwFz1aZ5kXyJmDkz2BrepEAz617NVfu8mF+ToZFO8XrFn2NJa/3rvCyvVH4U5GCPU3T+8pw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Babylon Foundation 1",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "bbnvaloper10hg5waeuxh8y0whza2vm8luz93ak93qumhqhz4",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "upH011gxhali2zBpWflJFLrl9r5AfxOHWOHribJkUDQ="
+                },
+                "value": {
+                  "denom": "ubbn",
+                  "amount": "7500000000000"
+                }
+              }
+            ],
+            "memo": "b1783b0d95ffeeac6c81be47ff8552bbc27bc054@10.150.73.127:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A2VtQOS2oFrgUzVEyrMKP8R6CpcXChwTyaoO9kHCmvLe"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "WYZ3FZXNbfOuvhFD0vXpZLldCDLSHm2sQ7FzCcNsAwNLVBsfI3SzVzWNIm2TqSjoK9k1qs1GsBsDrYGOhmysRQ=="
+          ]
+        }
+      ]
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": [],
+      "votes": [],
+      "proposals": [],
+      "deposit_params": null,
+      "voting_params": null,
+      "tally_params": null,
+      "params": {
+        "min_deposit": [
+          {
+            "denom": "ubbn",
+            "amount": "2500000000"
+          }
+        ],
+        "max_deposit_period": "172800s",
+        "voting_period": "172800s",
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.334000000000000000",
+        "min_initial_deposit_ratio": "0.000000000000000000",
+        "proposal_cancel_ratio": "0.500000000000000000",
+        "proposal_cancel_dest": "",
+        "expedited_voting_period": "86400s",
+        "expedited_threshold": "0.667000000000000000",
+        "expedited_min_deposit": [
+          {
+            "denom": "stake",
+            "amount": "50000000"
+          }
+        ],
+        "burn_vote_quorum": false,
+        "burn_proposal_deposit_prevote": false,
+        "burn_vote_veto": true,
+        "min_deposit_ratio": "0.010000000000000000"
+      },
+      "constitution": ""
+    },
+    "ibc": {
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "params": {
+          "allowed_clients": [
+            "06-solomachine",
+            "07-tendermint",
+            "09-localhost"
+          ]
+        },
+        "create_localhost": false,
+        "next_client_sequence": "0"
+      },
+      "connection_genesis": {
+        "connections": [],
+        "client_connection_paths": [],
+        "next_connection_sequence": "0",
+        "params": {
+          "max_expected_time_per_block": "30000000000"
+        }
+      },
+      "channel_genesis": {
+        "channels": [],
+        "acknowledgements": [],
+        "commitments": [],
+        "receipts": [],
+        "send_sequences": [],
+        "recv_sequences": [],
+        "ack_sequences": [],
+        "next_channel_sequence": "0"
+      }
+    },
+    "incentive": {
+      "params": {
+        "submitter_portion": "0.050000000000000000",
+        "reporter_portion": "0.050000000000000000",
+        "btc_staking_portion": "0.200000000000000000"
+      }
+    },
+    "mint": {
+      "minter": {
+        "inflation": "0.130000000000000000",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "ubbn",
+        "inflation_rate_change": "0.130000000000000000",
+        "inflation_max": "0.100000000000000000",
+        "inflation_min": "0.020000000000000000",
+        "goal_bonded": "0.500000000000000000",
+        "blocks_per_year": "1051200"
+      }
+    },
+    "monitor": {},
+    "params": null,
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "100",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600s",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": [],
+      "missed_blocks": []
+    },
+    "staking": {
+      "params": {
+        "unbonding_time": "1814400s",
+        "max_validators": 80,
+        "max_entries": 7,
+        "historical_entries": 10000,
+        "bond_denom": "ubbn",
+        "min_commission_rate": "0.000000000000000000"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": [],
+      "validators": [],
+      "delegations": [],
+      "unbonding_delegations": [],
+      "redelegations": [],
+      "exported": false
+    },
+    "transfer": {
+      "port_id": "transfer",
+      "denom_traces": [],
+      "params": {
+        "send_enabled": true,
+        "receive_enabled": true
+      },
+      "total_escrowed": []
+    },
+    "upgrade": {},
+    "vesting": {},
+    "wasm": {
+      "params": {
+        "code_upload_access": {
+          "permission": "Everybody",
+          "addresses": []
+        },
+        "instantiate_default_permission": "Everybody"
+      },
+      "codes": [],
+      "contracts": [],
+      "sequences": []
+    },
+    "zoneconcierge": {
+      "port_id": "zoneconcierge",
+      "params": {
+        "ibc_packet_timeout_seconds": 86400
+      }
+    }
+  },
+  "consensus": {
+    "params": {
+      "block": {
+        "max_bytes": "22020096",
+        "max_gas": "100000000"
+      },
+      "evidence": {
+        "max_age_num_blocks": "100000",
+        "max_age_duration": "172800000000000",
+        "max_bytes": "1048576"
+      },
+      "validator": {
+        "pub_key_types": [
+          "ed25519"
+        ]
+      },
+      "version": {
+        "app": "0"
+      },
+      "abci": {
+        "vote_extensions_enable_height": "1"
+      }
+    }
+  }
+}
