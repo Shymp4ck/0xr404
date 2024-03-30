@@ -1,0 +1,18 @@
+end_point = "https://cdn.meson.network"
+https_port = 443
+token = ""
+
+upgrade_keep=[
+  "https_port",
+  "token",
+  "cache.folder",
+  "cache.size",
+]
+
+[log]
+  level = "INFO"
+
+[cache]
+  folder = "./m_cache"
+  size = 30
+

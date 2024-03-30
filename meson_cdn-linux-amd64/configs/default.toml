@@ -1,0 +1,10 @@
+end_point = "https://cdn.meson.network"
+https_port = 443
+token = "rjanlufrwunwrtpc67902963c99b34db"
+
+[cache]
+  folder = "./m_cache"
+  size = 30
+
+[log]
+  level = "INFO"
