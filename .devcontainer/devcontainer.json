@@ -5,12 +5,20 @@
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/base:alpine-3.19",
 	"features": {
+<<<<<<< HEAD
 		"ghcr.io/devcontainers-contrib/features/act:1": {}
+=======
+		"ghcr.io/elanhasson/devcontainer-features/dotnet-aspire-daily:1": {}
+>>>>>>> ebe840d (god)
 	},
 	"customizations": {
 		"vscode": {
 			"extensions": [
+<<<<<<< HEAD
 				"rohit04saluja.linux-dev-extension-pack"
+=======
+				"Shopify.ruby-lsp"
+>>>>>>> ebe840d (god)
 			]
 		}
 	}
